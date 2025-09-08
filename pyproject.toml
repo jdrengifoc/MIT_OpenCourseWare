@@ -1,0 +1,19 @@
+[project]
+name = "mit-opencourseware"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Juan David Rengifo Castro",email = "jdrengifoc@eafit.edu.co"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.2,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "scipy (>=1.16.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
